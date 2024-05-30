@@ -1,7 +1,7 @@
 import json
 from urllib import request
 
-SERVER_URL = "http://192.168.18.9:8080/prompt"
+SERVER_URL = "http://localhost:8080/prompt"
 
 
 def get_node_by_title(workflow, title):
