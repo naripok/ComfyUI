@@ -18,7 +18,7 @@ def queue_prompt(workflow):
 
 
 if __name__ == "__main__":
-    prompt_workflow = json.load(open("api/workflows/workflow_api.json"))
+    prompt_workflow = json.load(open("api/workflows/example.json"))
 
     positive_prompt = get_node_by_title(prompt_workflow, "Positive Prompt")
     if not positive_prompt:
