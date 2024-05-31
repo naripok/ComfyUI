@@ -33,6 +33,8 @@ omegaconf = "^2.3.0"
 accelerate = "^0.30.1"
 apex = "^0.9.10.dev0"
 spandrel = "^0.3.4"
+groq = "^0.8.0"
+python-dotenv = "^1.0.1"
 
 
 [[tool.poetry.source]]
